@@ -105,16 +105,12 @@ st.markdown("""
 #     return model, device, class_names
 
 @st.cache_resource
+@st.cache_resource
 def load_cached_model():
     if not os.path.exists(MODEL_SAVE_PATH):
         return None, None, None
     model = load_model(device)
-    
-    # Derive class names from disease_info.json instead of scanning data/train
-    with open("disease_info.json") as f:
-        disease_info = json.load(f)
-    class_names = sorted(disease_info.keys())  # sorted to match ImageFolder order
-    
+    class_names = SELECTED_CLASSES          # ✅ already in config.py
     return model, device, class_names
 
 @st.cache_data
