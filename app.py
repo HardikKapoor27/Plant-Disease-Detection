@@ -95,15 +95,27 @@ st.markdown("""
 # Load model & disease info (cached)
 # ─────────────────────────────────────────────────────────────────────────────
 
+# @st.cache_resource
+# def load_cached_model():
+#     device = get_device()
+#     if not os.path.exists(MODEL_SAVE_PATH):
+#         return None, None, None
+#     model = load_model(device)
+#     _, _, class_names = get_dataloaders()
+#     return model, device, class_names
+
 @st.cache_resource
 def load_cached_model():
-    device = get_device()
     if not os.path.exists(MODEL_SAVE_PATH):
         return None, None, None
     model = load_model(device)
-    _, _, class_names = get_dataloaders()
+    
+    # Derive class names from disease_info.json instead of scanning data/train
+    with open("disease_info.json") as f:
+        disease_info = json.load(f)
+    class_names = sorted(disease_info.keys())  # sorted to match ImageFolder order
+    
     return model, device, class_names
-
 
 @st.cache_data
 def load_disease_info():
