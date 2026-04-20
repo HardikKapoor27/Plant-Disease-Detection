@@ -23,8 +23,8 @@ from PIL import Image
 # ── App must be run from the project root, or we fix the path ─────────────────
 sys.path.append(str(Path(__file__).parent))
 
-from config import MODEL_SAVE_PATH, NUM_CLASSES, CLASS_DISPLAY_NAMES
-from data_prep.data_loader import get_dataloaders, get_device
+from config import MODEL_SAVE_PATH, NUM_CLASSES, CLASS_DISPLAY_NAMES, SELECTED_CLASSES
+from data_prep.data_loader import get_device
 from models.resnet9 import ResNet9
 from utils.predict import predict_image, load_model, INFER_TRANSFORM
 
@@ -104,13 +104,14 @@ st.markdown("""
 #     _, _, class_names = get_dataloaders()
 #     return model, device, class_names
 
-@st.cache_resource
+device = get_device()
+
 @st.cache_resource
 def load_cached_model():
     if not os.path.exists(MODEL_SAVE_PATH):
         return None, None, None
     model = load_model(device)
-    class_names = SELECTED_CLASSES          # ✅ already in config.py
+    class_names = SELECTED_CLASSES
     return model, device, class_names
 
 @st.cache_data
