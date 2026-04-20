@@ -1,0 +1,114 @@
+{
+  "Apple - Apple Scab": {
+    "description": "Apple scab is a fungal disease caused by Venturia inaequalis. It appears as dark, velvety spots on leaves and fruits, reducing yield and marketability.",
+    "symptoms": ["Dark olive-green to brown spots on leaves", "Scabby, corky lesions on fruit", "Premature leaf drop", "Distorted or cracked fruit"],
+    "causes": ["Fungus: Venturia inaequalis", "Thrives in cool, wet spring conditions", "Spores spread by rain splash"],
+    "prevention": ["Plant resistant varieties", "Prune trees for better air circulation", "Remove fallen leaves in autumn"],
+    "treatment": ["Apply fungicides (captan, myclobutanil) at bud break", "Repeat every 7-14 days during wet periods", "Use copper-based sprays as organic alternative"],
+    "severity": "Moderate to High"
+  },
+  "Apple - Black Rot": {
+    "description": "Black rot is a fungal disease caused by Botryosphaeria obtusa, affecting leaves, fruit, and bark of apple trees.",
+    "symptoms": ["Purple spots on leaves", "Brown sunken lesions on fruit turning black", "Cankers on branches and trunk", "Mummified fruits remaining on tree"],
+    "causes": ["Fungus: Botryosphaeria obtusa", "Spreads through wounds, pruning cuts", "Warm, humid weather favors infection"],
+    "prevention": ["Remove mummified fruits and dead wood", "Avoid wounding trees", "Prune during dry weather"],
+    "treatment": ["Apply fungicides (thiophanate-methyl, captan)", "Remove and destroy infected material", "Maintain tree health through proper fertilization"],
+    "severity": "High"
+  },
+  "Apple - Healthy": {
+    "description": "This apple plant appears healthy with no signs of disease. Continue regular monitoring and preventive care.",
+    "symptoms": ["No visible symptoms"],
+    "causes": ["N/A"],
+    "prevention": ["Regular watering and fertilization", "Seasonal pruning", "Monitor regularly for early signs of disease"],
+    "treatment": ["No treatment needed"],
+    "severity": "None"
+  },
+  "Corn - Common Rust": {
+    "description": "Common rust is a fungal disease caused by Puccinia sorghi, one of the most widespread diseases of corn worldwide.",
+    "symptoms": ["Small, golden-brown to dark brown pustules on leaves", "Pustules appear on both leaf surfaces", "Severe infection causes yellowing and death of leaves"],
+    "causes": ["Fungus: Puccinia sorghi", "Spreads via airborne spores", "Cool, humid conditions (60-77°F) promote infection"],
+    "prevention": ["Plant resistant hybrids", "Early planting to avoid peak infection periods", "Monitor fields regularly"],
+    "treatment": ["Apply fungicides (triazoles, strobilurins) at early infection", "Most economic loss prevention comes from resistant varieties"],
+    "severity": "Moderate"
+  },
+  "Corn - Healthy": {
+    "description": "This corn plant is healthy. Maintain good cultural practices to keep plants disease-free throughout the season.",
+    "symptoms": ["No visible symptoms"],
+    "causes": ["N/A"],
+    "prevention": ["Rotate crops annually", "Use certified disease-free seeds", "Balanced nitrogen fertilization"],
+    "treatment": ["No treatment needed"],
+    "severity": "None"
+  },
+  "Grape - Black Rot": {
+    "description": "Grape black rot, caused by Guignardia bidwellii, is one of the most destructive diseases of cultivated grapes in warm, humid areas.",
+    "symptoms": ["Brown circular lesions with dark borders on leaves", "Small black dots (pycnidia) in lesions", "Infected berries turn brown then black and mummify", "Cankers on shoots and tendrils"],
+    "causes": ["Fungus: Guignardia bidwellii", "Overwinters in mummified berries and canes", "Wet weather during bloom is critical infection period"],
+    "prevention": ["Remove mummified berries and infected canes in winter", "Ensure good canopy ventilation through pruning", "Avoid overhead irrigation"],
+    "treatment": ["Apply fungicides (myclobutanil, mancozeb) starting at bud break", "Continue spray program every 10-14 days through fruit set"],
+    "severity": "High"
+  },
+  "Grape - Healthy": {
+    "description": "This grape vine is healthy. Proper canopy management and preventive sprays will keep it productive.",
+    "symptoms": ["No visible symptoms"],
+    "causes": ["N/A"],
+    "prevention": ["Annual pruning for air circulation", "Preventive fungicide sprays during wet springs", "Weed control around vines"],
+    "treatment": ["No treatment needed"],
+    "severity": "None"
+  },
+  "Potato - Early Blight": {
+    "description": "Early blight, caused by Alternaria solani, is a common fungal disease affecting potato leaves, stems, and tubers.",
+    "symptoms": ["Dark brown spots with concentric rings (target-board pattern)", "Yellow halo around lesions", "Lesions start on lower, older leaves", "Premature defoliation in severe cases"],
+    "causes": ["Fungus: Alternaria solani", "Favored by warm days (75-85°F), cool nights", "Stress from drought, nutrient deficiency increases susceptibility"],
+    "prevention": ["Use certified disease-free seed tubers", "Crop rotation (3+ years)", "Proper fertilization especially nitrogen"],
+    "treatment": ["Apply fungicides (chlorothalonil, mancozeb, azoxystrobin)", "Begin sprays when first symptoms appear", "Repeat every 7-14 days"],
+    "severity": "Moderate"
+  },
+  "Potato - Late Blight": {
+    "description": "Late blight, caused by Phytophthora infestans, is one of the most devastating plant diseases in history (responsible for the Irish Potato Famine).",
+    "symptoms": ["Water-soaked lesions on leaves turning dark brown to black", "White mold on underside of leaves in humid conditions", "Dark, firm rot on tubers", "Rapid collapse of entire plant in severe outbreaks"],
+    "causes": ["Oomycete: Phytophthora infestans", "Favored by cool, wet weather (50-70°F)", "Spreads rapidly; can destroy entire crop in days"],
+    "prevention": ["Plant resistant varieties", "Use certified seed potatoes", "Avoid overhead irrigation; water in morning"],
+    "treatment": ["Apply preventive fungicides (chlorothalonil, copper, mancozeb)", "Systemic fungicides (metalaxyl) for active infections", "Destroy severely infected crops to prevent spread"],
+    "severity": "Very High"
+  },
+  "Potato - Healthy": {
+    "description": "This potato plant is healthy. Monitor regularly as potatoes are susceptible to several serious diseases.",
+    "symptoms": ["No visible symptoms"],
+    "causes": ["N/A"],
+    "prevention": ["Use certified seed potatoes", "Rotate crops every 3-4 years", "Hilling to protect developing tubers"],
+    "treatment": ["No treatment needed"],
+    "severity": "None"
+  },
+  "Tomato - Bacterial Spot": {
+    "description": "Bacterial spot is caused by Xanthomonas species and affects leaves, stems, and fruit of tomato plants.",
+    "symptoms": ["Small, water-soaked lesions on leaves turning dark brown", "Lesions surrounded by yellow halo", "Raised, rough, scabby spots on fruit", "Defoliation in severe infections"],
+    "causes": ["Bacteria: Xanthomonas vesicatoria, X. euvesicatoria, X. gardneri, X. perforans", "Spreads via splashing water, contaminated tools", "Warm, rainy weather favors spread"],
+    "prevention": ["Use disease-free seeds and transplants", "Avoid overhead irrigation", "Rotate crops; avoid working with wet plants"],
+    "treatment": ["Copper-based bactericides as preventive sprays", "No cure once infected; manage spread", "Remove and destroy severely infected plants"],
+    "severity": "Moderate to High"
+  },
+  "Tomato - Early Blight": {
+    "description": "Tomato early blight (Alternaria solani) causes significant yield losses by reducing the photosynthetic area of the plant.",
+    "symptoms": ["Dark brown spots with concentric rings on older leaves", "Yellow area surrounding spots", "Stem lesions (collar rot) in seedlings", "Dark, leathery lesions at stem end of fruit"],
+    "causes": ["Fungus: Alternaria solani", "Survives in soil and infected debris", "Warm temperatures (75-85°F) with leaf wetness"],
+    "prevention": ["Mulch to prevent soil splash", "Stake plants for air circulation", "Remove lower infected leaves promptly"],
+    "treatment": ["Fungicides: chlorothalonil, copper, azoxystrobin", "Spray every 7-10 days during wet weather", "Organic: neem oil, copper soap"],
+    "severity": "Moderate"
+  },
+  "Tomato - Late Blight": {
+    "description": "Tomato late blight (Phytophthora infestans) is the same pathogen that caused the Irish Potato Famine and can devastate entire tomato crops.",
+    "symptoms": ["Pale green to brown water-soaked patches on leaves", "White fuzzy growth on undersides in humid conditions", "Dark brown lesions on stems", "Large, dark, firm lesions on fruit"],
+    "causes": ["Oomycete: Phytophthora infestans", "Thrives in cool (60-70°F), very wet conditions", "Spreads extremely rapidly in ideal conditions"],
+    "prevention": ["Plant resistant varieties", "Avoid wetting foliage", "Space plants for good air circulation"],
+    "treatment": ["Apply preventive fungicides (chlorothalonil, copper)", "Systemic options: dimethomorph, mandipropamid", "Remove and bag infected plant material immediately"],
+    "severity": "Very High"
+  },
+  "Tomato - Healthy": {
+    "description": "This tomato plant is healthy and thriving. Regular monitoring and good cultural practices will keep it productive.",
+    "symptoms": ["No visible symptoms"],
+    "causes": ["N/A"],
+    "prevention": ["Regular fertilization and watering", "Stake or cage plants", "Rotate crops each season"],
+    "treatment": ["No treatment needed"],
+    "severity": "None"
+  }
+}
