@@ -41,44 +41,49 @@ st.set_page_config(
 # ─────────────────────────────────────────────────────────────────────────────
 # Custom CSS
 # ─────────────────────────────────────────────────────────────────────────────
+
 st.markdown("""
 <style>
     .main-header {
         font-size: 2.5rem;
         font-weight: 700;
-        color: #2e7d32;
+        color: #4caf50;
         text-align: center;
         margin-bottom: 0.2rem;
     }
     .sub-header {
         font-size: 1rem;
-        color: #666;
+        color: #888;
         text-align: center;
         margin-bottom: 2rem;
     }
     .result-box {
-        background: linear-gradient(135deg, #e8f5e9, #f1f8e9);
+        background: rgba(76, 175, 80, 0.15);
         border-left: 5px solid #4caf50;
         padding: 1.2rem 1.5rem;
         border-radius: 8px;
         margin: 1rem 0;
     }
     .disease-box {
-        background: linear-gradient(135deg, #fff3e0, #fbe9e7);
+        background: rgba(244, 67, 54, 0.15);
         border-left: 5px solid #f44336;
         padding: 1.2rem 1.5rem;
         border-radius: 8px;
         margin: 1rem 0;
     }
     .healthy-box {
-        background: linear-gradient(135deg, #e8f5e9, #f0f4c3);
+        background: rgba(102, 187, 106, 0.15);
         border-left: 5px solid #66bb6a;
         padding: 1.2rem 1.5rem;
         border-radius: 8px;
         margin: 1rem 0;
     }
+    .disease-box h3, .healthy-box h3, .result-box h3 {
+        color: inherit;
+        margin-bottom: 0.3rem;
+    }
     .info-section h4 {
-        color: #1b5e20;
+        color: #4caf50;
         margin-bottom: 0.5rem;
     }
     .severity-badge {
