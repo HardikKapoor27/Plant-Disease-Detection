@@ -54,6 +54,7 @@ python train_model.py
 ```bash
 streamlit run app.py
 ```
+Deployed Webiste Link : https://plant-disease-detection-hardik27.streamlit.app/
 
 ---
 
